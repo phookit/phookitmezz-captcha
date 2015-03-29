@@ -1,4 +1,5 @@
 from mezzanine.generic.forms import ThreadedCommentForm                                                      
+from captcha.fields import CaptchaField
 
 class GuestCommentForm(ThreadedCommentForm):                                                           
     def __init__(self, request, *args, **kwargs):                                                            
