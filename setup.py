@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-setup(name="MyPackage",
+setup(name="mezzcaptcha",
       version="0.1",
       description="Custom mezzanine forms with captchas",
       long_description="""\
