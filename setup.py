@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(name="mezzcaptcha",
-      version="0.1",
+      version="0.2",
       description="Custom mezzanine forms with captchas",
       long_description="""\
 Includes a comment form that will display a captcha to guest users
