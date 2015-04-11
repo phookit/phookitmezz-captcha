@@ -1,12 +1,12 @@
 # phookitmezz-captcha
-Captcha for Mezzanine sign up and comment forms. Relies on django-simple-captcha for captcha handling. django-simple-captcha will be installed if you have installed mezzcaptcha from PyPi.
+Captcha for Mezzanine sign up and comment forms. Relies on *django-simple-captcha* for captcha handling. *django-simple-captcha* will be installed if you have installed mezzcaptcha from PyPi.
 
-Currently the signup form will work however the comments form will only be compatible with the next release of Mezzanine.
+Currently the signup form will work ***however the comments form will only be compatible with the next release of Mezzanine.***
 
 ## django-simple-captcha installation with Mezzanine
 
 See https://django-simple-captcha.readthedocs.org/en/latest/usage.html#installation for general installation instructions.
-Once django-simple-captcha has been installed you must update you urls.py.
+Once *django-simple-captcha* has been installed you must update you urls.py.
 
     # url("^$", "mezzanine.blog.views.blog_post_list", name="home"),
     
